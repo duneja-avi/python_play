@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+requirement-txt = "*"
+certifi = "==2019.6.16"
+chardet = "==3.0.4"
+geographiclib = "==1.49"
+geopy = "==1.20.0"
+idna = "==2.8"
+requests = "==2.22.0"
+urllib3 = "==1.25.3"
+requestspipenv = "*"
+lock = "*"
+
+[requires]
+python_version = "3.7"

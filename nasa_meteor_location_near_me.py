@@ -42,5 +42,4 @@ else:
 # sorted list
 distance_list.sort()
 for loc in distance_list[:11]:
-    # as we need top 10 location itself
     print(location_dist[loc])
